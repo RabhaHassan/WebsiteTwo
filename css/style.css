@@ -1,0 +1,589 @@
+/* ------------------------------- Start General ----------------------------------------- */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* ------------------------------- End General ------------------------------------------- */
+
+.navbar{
+        padding: 15px;
+}
+.navbar-right{
+        margin-top: 12px;
+}
+.navbar-nav > li > a{
+        color: #000;
+    font-weight: bold;
+}
+.navbar-nav > li > a:hover{
+    color: #64b3eb; 
+    border:none;
+    background-color: transparent;
+}
+.navbar .number{
+        border: 2px solid #248bce;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #1b90df;
+    color: #fff;
+    display: inline-block;
+           position: absolute;
+    top: -24px;
+}
+.header-top{
+    background-color: #005395;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.header-top  .textone{
+    margin-top: 10px;
+}
+.header-top  .textone span{
+    margin-right: 30px;
+    color: #fff;
+}
+.header-top  .textone span i{
+    margin-right: 15px;
+}
+.header-top  .texttwo input{
+        background-color: #075a9c;
+    border: 2px solid #075a9c;
+    color: #fff;
+    padding: 6px;
+    margin-right: 28px;
+}
+.header-top  .texttwo input::placeholder{
+    color: #fff;
+}
+.header-top  .texttwo i{
+    color: #fff;
+    border: 2px solid #075a9c;
+    padding: 6px 14px;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+/* ------------------------------- Start ------------------------------------------------- */
+.slider .carousel-inner{
+    height:100%;
+}
+.slider .carousel-inner .carousel-caption{
+    top: 50px;
+    left: 48%;
+    text-align: initial;
+}
+.slider .carousel-inner .carousel-caption h3{
+        font-size: 40px;
+    color: #000;
+    font-weight: bold;
+
+}
+.slider .carousel-inner .carousel-caption h3 span{
+      color: #2e99eb;  
+}
+.slider .carousel-inner .carousel-caption p{
+    
+    margin-bottom: 33px;
+}
+.slider .carousel-inner .carousel-caption button{
+    margin-right: 33px;
+        padding: 8px 27px;
+
+}
+.slider .carousel-control.right{
+
+}
+.slider .carousel-control.right .glyphicon-chevron-right:active,
+.slider .carousel-control.right .glyphicon-chevron-right:hover{
+              width: 64px;
+    height: 55px;
+    background-color: #328ddc;
+    color: #fff;
+    margin-right: -50%;
+    border-radius: 14px 3px; 
+        padding: 10px;
+}
+.slider .carousel-control.right .glyphicon-chevron-right{
+              width: 64px;
+    height: 55px;
+        background-color: #fff;
+    color: #000;
+    margin-right: -50%;
+    border-radius: 14px 3px; 
+        padding: 10px;
+}
+.slider .carousel-control.left .glyphicon-chevron-left:active,
+.slider .carousel-control.left .glyphicon-chevron-left:hover{
+              width: 64px;
+    height: 55px;
+    background-color: #328ddc;
+    color: #fff;
+    margin-left: -50%;
+    border-radius: 14px 3px;
+        padding: 10px;
+}
+.slider .carousel-control.left .glyphicon-chevron-left
+{
+              width: 64px;
+    height: 55px;
+    background-color: #fff;
+    color: #000;
+    margin-left: -50%;
+    border-radius: 14px 3px;
+        padding: 10px;
+}
+
+.slider .carousel-control.right,
+.slider .carousel-control.left{
+    background-image: none;
+
+}
+/******************************/
+.work{
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.work ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.work ul li i{
+    color: #328ddc;
+    margin-right: 10px;
+}
+.work ul li{
+        color: #b7b4b4;
+}
+.work p{
+        color: #b7b4b4;
+}
+/* ------------------------------- End --------------------------------------------------- */
+.testimon{ 
+     position: relative;
+    margin: 0 auto;
+    background-color: #121212;
+}
+.testimon h2{
+    padding: 30px;
+    color: #fff;
+}
+.testimon .tes-content{
+        color: #fff;
+    margin: 80px 0;
+    margin-left: 0;
+    margin-right: 0;
+    left: 42%;
+    top: 16%;
+    padding: 50px;
+}
+.testimon .tes-content i{
+    font-size: 36px;
+    color: #fff;
+}
+.testimon .carousel-indicators {
+    bottom: -53px;
+}
+.testimon .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+        background-color: #224f77!important;
+}
+.testimon img{
+        border-radius: 50%;
+    height:50px!important;
+    width: 50px;
+    margin-right: 15px!important;
+}
+.testimon .carousel-control.right .glyphicon-chevron-right:active,
+.testimon .carousel-control.right .glyphicon-chevron-right:hover{
+              width: 64px;
+    height: 55px;
+    background-color: #328ddc;
+    color: #fff;
+    margin-right: -106%;
+    border-radius: 14px 3px; 
+    transform: rotate(20deg);
+        padding: 10px;
+}
+.testimon .carousel-control.right .glyphicon-chevron-right{
+              width: 64px;
+    height: 55px;
+        background-color: #fff;
+    color: #328ddc;
+    margin-right: -106%;
+    border-radius: 14px 3px; 
+        padding: 10px;
+}
+.testimon .carousel-control.left .glyphicon-chevron-left:active,
+.testimon .carousel-control.left .glyphicon-chevron-left:hover{
+              width: 64px;
+    height: 55px;
+    background-color: #328ddc;
+    color: #fff;
+    margin-left: -106%;
+     border-radius: 14px 3px;
+   transform: rotate(20deg);
+        padding: 10px;
+}
+.testimon .carousel-control.left .glyphicon-chevron-left
+{
+              width: 64px;
+    height: 55px;
+    background-color: #328ddc;
+    color: #fff;
+    margin-left: -106%;
+    border-radius: 14px 3px;
+        padding: 10px;
+}
+
+.testimon .carousel-control.right,
+.testimon .carousel-control.left{
+    background-image: none;
+
+}
+.testimon p{
+    margin-top: 75px;
+}
+
+
+/* ------------------------------- Start My Framework ------------------------------------ */
+.images{
+    position: relative;
+}
+.images img{
+    width: 100%;
+    height: 150px;
+    
+}
+.images .img__wrap {
+  position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.images .img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(48, 146, 211, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+padding: 30px;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.images .img__description_layer  i{
+    font-size:24px;
+    margin: 0 auto;
+        margin-right: 39px;
+}
+.images .img__description_layer p{
+        font-size: 16px;
+    
+}
+.images .img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.images .img__description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.images .img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+/**************************/
+.ready {
+    position: relative;
+           background: url("../images/ahmad-gunnaivi-OupUvbC_TEY-unsplash.jpg")center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   padding-bottom: 45px;
+}
+
+.ready p{
+    display: inline-block;
+    margin-right: 30px;
+    color: #fff;
+    padding-top: 45px;
+}
+.ready button{
+    display: inline-block;
+    padding: 10px 30px;
+}
+.ready .text-ready{
+    position: relative;
+}
+.overflow{
+    
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26,26,26,0.8);
+}
+/**************************/
+.meet{
+    padding: 72px;
+}
+.meet h2{
+  font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 52px;
+}
+.meet p{
+    color: #b7b4b4;
+    word-wrap: break-word;
+}
+.meet .image-meet{
+        margin-top: 31px;
+}
+.meet .image-meet img{
+    height: 100%;
+    width: 100%;
+}
+.meet .image-meet h2{
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    margin: 0;
+        margin-top: 10px;
+    margin-bottom: 10px;
+}
+.meet .image-meet span{
+color: #b7b4b4; 
+    display: inline-block;
+    margin-left: -170px;
+}
+.meet .image-meet p{
+    color: #b7b4b4;
+    text-align: left;
+}
+.meet .image-meet .social-meet{
+  margin-top: 36px;  
+    text-align: left;
+}
+.meet .image-meet .social-meet i{
+        color: #000;
+    border: 2px solid #ffff;
+    padding: 6px 14px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.meet .image-meet .social-meet i:hover{
+        color: #fff;
+    border: 2px solid #075a9c;
+    background-color: #075a9c;
+    padding: 6px 14px;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.meet .img__wrap {
+  position: relative;
+    width: 100%;
+  height: 266px;
+}
+
+.meet  .img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(48, 146, 211, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+padding: 30px;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.meet  .img__description_layer  i{
+    font-size:24px;
+    margin: 0 auto;
+        margin-right: 39px;
+}
+.meet  .img__description_layer p{
+        font-size: 16px;
+    
+}
+.meet  .img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.meet  .img__description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.meet  .img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+/*****************/
+.logos{
+    padding: 100px;
+    font-weight: bold;
+}
+/**************************/
+.computer{
+    position: relative;
+           background: url("../images/ahmad-gunnaivi-OupUvbC_TEY-unsplash.jpg")center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   padding-bottom: 45px;
+}
+.computer .content-c{
+    padding-top: 89px;
+}
+.computer p{
+    color: #fff;
+}
+.computer .numpro{
+    display: inline-block;
+    float: right;
+    margin: 0;
+    border: 2px solid #fff;
+    padding: 3px 11px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+}
+.computer span{
+    color: #b7b4b4;
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.computer h4{
+    display: inline-block;
+    color: #ffff;
+}
+/****************************/
+.footer{
+    background-color: #222222;
+    padding: 86px;
+}
+.footer img{
+       width: 67%; 
+}
+.footer .latest-img{
+        width: 100%;
+    height: 100%;
+}
+.footer .f-p{
+   color: #b7b4b4;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    word-break: break-all;
+}
+.footer .box{
+        width: 400px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-bottom: 3px;
+}
+.footer .pop p{
+    border: 2px solid #383838;
+    color: #939393;
+        padding: 9px;
+    text-align: center;
+background-color: #383838;
+}
+.footer .pop .col-md-4{
+        padding: 4px;
+}
+.footer .box .left-box{
+    float: left;
+    width: 27px;
+    margin-right: 3px;
+    color: #fff;
+}
+.footer .box .left-box i{
+        margin-top: 10px;
+    font-size:30px;
+}
+.footer .box .right-box{
+    float: left;
+    margin: 0 0 0 5px;
+    width: 215px;
+    color: #fff;
+    margin-top: -13px;
+}
+.footer .sub{
+    
+}
+.footer .sub h2{
+      font-size: 26px;
+    color: #fff;  
+}
+.footer .sub p{
+  color: #9b9b9b;
+    margin-bottom: 24px;
+}
+.footer .sub input{
+        border-radius: 4px;
+    padding: 3px;
+    background-color: #383636;
+    border-color: #827373;
+    margin-bottom: 15px;
+}
+.footer .sub form span{
+   border: 2px solid #2796de;
+    color: #fff;
+    background-color: #2796de;
+    padding: 3px;
+    border-radius: 3px; 
+}
+.footer .respect{
+    display: block;
+     color: #9b9b9b;
+    margin-bottom: 38px;
+}
+.footer  .socail i{
+        color: #fff;
+    border: 2px solid #ffff;
+   padding: 6px 11px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.footer  .socail i:hover{
+        color: #fff;
+    border: 2px solid #075a9c;
+    background-color: #075a9c;
+    padding: 6px 11px;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.footer-bottom{
+    color: #fff;
+    padding: 26px;
+    background-color: #2a2a2a;
+}
+/* ------------------------------- End My Framework -------------------------------------- */
